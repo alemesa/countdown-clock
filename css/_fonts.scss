@@ -1,0 +1,12 @@
+$fonts: './../fonts/';
+// Deep Browser Supports - Fonts
+@font-face {
+  font-family: 'Proxima-Nova';
+  src: url($fonts + 'Proxima-Nova.otf'),
+    url($fonts + 'Proxima-Nova.woff') format('woff');
+  font-style: normal;
+}
+//Use it like this after
+body {
+  font-family: 'Proxima-Nova', Fallback, sans-serif;
+}
