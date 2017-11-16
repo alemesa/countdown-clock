@@ -86,5 +86,3 @@ document.customForm.addEventListener('submit', function(e) {
   this.reset();
   timer(mins * 60);
 });
-
-console.log('End of timer script');
